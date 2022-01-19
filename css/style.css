@@ -1,3 +1,87 @@
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 500;
+    src:url(../fonts/SFPRODISPLAY-MEDIUM.TTF);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 400;
+    src:url(../fonts/SFPRODISPLAY-REGULAR.TTF);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 700;
+    src:url(../fonts/SFPRODISPLAY-BOLD.TTF);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 600;
+    src:url(../fonts/SFPRODISPLAY-SEMIBOLD.TTF);
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    font-family: "SF Pro Display" ,sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+html {
+    box-sizing: content-box;
+}
+
+ul {
+    margin: 0;
+}
+.header{
+    width: 100%;
+}
+.header-wrapper{
+     width: 100%;
+     max-width: 1600px;
+     margin: 0 auto;
+     display: flex;
+     justify-content:space-between;
+    align-items:center;
+}
+.nav{
+    list-style: none;
+    display: flex;
+}
+a:hover{
+    color:#409DE2;
+}
+a:active{
+    color:#216DA6;
+}
+.pages{
+    font-weight: 600;
+    margin-right: 70px;
+}
+.logo{
+    padding-top:33px;
+    padding-left: 100px;
+    padding-bottom: 24px;
+}
+.over-headline{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #8C9EAA;
+    max-width: 517px;
+    margin-top:85px ;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
